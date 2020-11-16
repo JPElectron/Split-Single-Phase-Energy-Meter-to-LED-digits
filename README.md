@@ -1,4 +1,4 @@
-# Split Single Phase Energy Meter to LED-digits
+# Split Single Phase Energy Meter to LED digits
 
 Allows CircuitSetup's ATM90E32 Split Single Phase Energy Meter (see https://github.com/CircuitSetup/Split-Single-Phase-Energy-Meter) 
 total Amperage to be shown on serial addressable LED digits like the Velleman K8063
