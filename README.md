@@ -7,8 +7,8 @@ total Amperage to be shown on serial addressable LED digits like the Velleman K8
 
         count.dat
         count.exe (in this build, when run without paramaters, it simply displays whatever number is in count.dat)
-        count.ini (update with the correct COM port and number of digits)
-        update.bat
+        count.ini (edit with the correct COM port and number of digits)
+        update.bat (edit with the IP of your Energy Meter)
 
 - Copy the following CURL files (you can get these at https://curl.haxx.se/windows/)
 
@@ -16,6 +16,19 @@ total Amperage to be shown on serial addressable LED digits like the Velleman K8
         curl-ca-bundle.crt
         libcurl-x64.dll
 
-- Create a scheduled task that runs update.bat as often as you like.
+- Create a scheduled task that runs update.bat as often as you like
+
+Additional count.exe command-line arguments...
+
+        -U  Up (+1)
+        -J  Join (+1)
+        -D  Down (-1)
+        -L  Leave (-1)
+        -B  Blank
+        -E  Error
+        -Z  Zero
+        -R  Reset
+        -LO  Intensity dim
+        -HI  Intensity bright
 
 [End of Line]
